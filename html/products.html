@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>GreenTech Solutions | Products and Services</title>
+   <link rel="stylesheet" href="../css/final.css">
+</head>
+<body>
+   <a class="skip-link" href="#main-content">Skip to main content</a>
+
+   <header class="site-header">
+      <div class="brand-row">
+         <div>
+            <h1>GreenTech Solutions</h1>
+            <p class="tagline">Eco-friendly technology for smarter, more sustainable business.</p>
+         </div>
+         <button id="contrastToggle" class="contrast-btn" type="button" aria-pressed="false">High Contrast</button>
+      </div>
+
+      <nav class="site-nav" aria-label="Main navigation">
+         <a href="index.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="products.html" aria-current="page">Products</a>
+         <a href="resources.html">Resources</a>
+         <a href="contact.html">Contact</a>
+      </nav>
+   </header>
+
+   <main id="main-content">
+      <section class="card">
+         <h2>Products and Services</h2>
+         <p>
+            Browse GreenTech solutions below. Use the search box and category filter to narrow down products and services.
+         </p>
+
+         <div class="filter-row">
+            <div>
+               <label for="productSearch">Search</label>
+               <input type="text" id="productSearch" placeholder="Search products or services">
+            </div>
+
+            <div>
+               <label for="productFilter">Category</label>
+               <select id="productFilter">
+                  <option value="all">All</option>
+                  <option value="devices">Devices</option>
+                  <option value="recycling">Recycling</option>
+                  <option value="software">Software</option>
+                  <option value="services">Services</option>
+               </select>
+            </div>
+         </div>
+      </section>
+
+      <section id="productList" class="feature-grid">
+         <article class="feature-item product-card" data-category="devices">
+            <img src="../images/energy-device.jpg" alt="Energy-saving device in a business office">
+            <h3>Energy Saver Hub</h3>
+            <p>A device designed to reduce wasted power from everyday office equipment.</p>
+         </article>
+
+         <article class="feature-item product-card" data-category="recycling">
+            <img src="../images/smart-recycling.jpg" alt="Smart recycling station with labeled bins">
+            <h3>Smart Recycling Station</h3>
+            <p>A connected recycling system that improves sorting and helps track waste behavior.</p>
+         </article>
+
+         <article class="feature-item product-card" data-category="software">
+            <img src="../images/carbon-dashboard.jpg" alt="Dashboard displaying carbon reporting analytics">
+            <h3>Carbon Track Dashboard</h3>
+            <p>Software that helps organizations report and monitor carbon-related data.</p>
+         </article>
+
+         <article class="feature-item product-card" data-category="services">
+            <img src="../images/greentech-team.jpg" alt="Consultants discussing sustainability planning">
+            <h3>Sustainability Planning Service</h3>
+            <p>Consulting support for businesses that want a more structured environmental plan.</p>
+         </article>
+      </section>
+   </main>
+
+   <footer class="site-footer">
+      <p>GreenTech Solutions Final Project Demo Site</p>
+   </footer>
+
+   <script src="../js/final.js"></script>
+</body>
+</html>

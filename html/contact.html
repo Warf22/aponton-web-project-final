@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>GreenTech Solutions | Contact</title>
+   <link rel="stylesheet" href="../css/final.css">
+</head>
+<body>
+   <a class="skip-link" href="#main-content">Skip to main content</a>
+
+   <header class="site-header">
+      <div class="brand-row">
+         <div>
+            <h1>GreenTech Solutions</h1>
+            <p class="tagline">Eco-friendly technology for smarter, more sustainable business.</p>
+         </div>
+         <button id="contrastToggle" class="contrast-btn" type="button" aria-pressed="false">High Contrast</button>
+      </div>
+
+      <nav class="site-nav" aria-label="Main navigation">
+         <a href="index.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="products.html">Products</a>
+         <a href="resources.html">Resources</a>
+         <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+   </header>
+
+   <main id="main-content">
+      <section class="grid-two">
+         <article class="card">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> info@greentechsolutions.com</p>
+            <p><strong>Phone:</strong> (555) 210-4400</p>
+            <p><strong>Address:</strong> 1450 Innovation Drive, Albuquerque, NM 87101</p>
+         </article>
+
+         <article class="card">
+            <h2>Send a Message</h2>
+
+            <form id="contactForm" novalidate>
+               <label for="contactName">Name</label>
+               <input type="text" id="contactName" name="contactName">
+
+               <label for="contactEmail">Email</label>
+               <input type="email" id="contactEmail" name="contactEmail">
+
+               <label for="contactMessage">Message</label>
+               <textarea id="contactMessage" name="contactMessage" rows="5"></textarea>
+
+               <button type="submit">Submit</button>
+            </form>
+
+            <div id="contactResponse" class="message-box" aria-live="polite"></div>
+         </article>
+      </section>
+   </main>
+
+   <footer class="site-footer">
+      <p>GreenTech Solutions Final Project Demo Site</p>
+   </footer>
+
+   <script src="../js/final.js"></script>
+</body>
+</html>
